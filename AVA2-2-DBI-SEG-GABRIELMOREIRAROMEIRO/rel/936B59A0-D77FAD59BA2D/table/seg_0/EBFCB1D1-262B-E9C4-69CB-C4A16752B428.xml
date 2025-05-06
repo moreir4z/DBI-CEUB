@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBFCB1D1-262B-E9C4-69CB-C4A16752B428" name="endereco">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>D04FAB41-2DC1-D490-6E78-DA87E50BF7A7</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rua" id="BAFBF81B-23BE-E1F0-FC38-315634BBA741">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>C9E556B8-3066-35A4-11D5-680121E11368</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="A1507A80-79CA-CA92-5ECF-446AA10A749B">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>F567E4A1-980F-BF5A-56EA-F6459203C548</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quadra" id="DE4B1D55-EB09-27D8-8060-4E590F981794">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>A5E70405-EED0-0B8A-7D91-C413F71693F6</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepbairro" id="1749BFCA-7F64-59BC-DF53-1A5870F305EE">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>A1EABCB6-766B-9345-2477-A1A8AB0E59AA</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7803F8D-F8F3-64C9-7E92-69C68849ED74" name="endereco_PK">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>90EDFB1C-E8AA-73F2-B20D-636E94845023</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1749BFCA-7F64-59BC-DF53-1A5870F305EE"/>
+<colUsage columnID="BAFBF81B-23BE-E1F0-FC38-315634BBA741"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

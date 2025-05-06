@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFC5FF57-E3CD-72C8-DF48-73D2DFFA37C3" name="produto">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>FB08FB83-DABF-4F85-5779-904F515C0205</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cadastroproduto" id="1E77621E-1306-59A2-516D-0B066B35A8ED">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>18204D49-B020-B455-D426-DB467285CEC9</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipodoproduto" id="0499ADD4-AFC7-11DA-EA16-703B20179152">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>A20075DE-8B6D-5DA7-6C2D-B606B80E2AB0</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="1648E96E-3134-CB4D-EFE0-CFF16A1EE0B8">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>1267B6B6-BE82-9CC9-A083-40A3691AAFDE</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numerodopedido" id="F984025A-DDD7-4E96-3048-D6A2FD3B6C88">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>E26EDB39-DDB7-E4ED-B6D5-ADB773F5B803</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02945ABF-95BF-B4FF-C4E3-66825ACFB1BD" referredColumn="05ED1D4D-EB85-9EC1-DDCF-02C43C97B8C3"/>
+</associations>
+</Column>
+<Column name="cadastroproduto1" id="BE82B539-D557-ADBF-5998-B9AF24AB4091">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>338E9083-3C58-9D1F-2496-382583C178AD</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02945ABF-95BF-B4FF-C4E3-66825ACFB1BD" referredColumn="B79370A9-2215-AD55-5D3A-49FDBB0F2AD2"/>
+</associations>
+</Column>
+<Column name="identificacaovendedor" id="E83BC621-B3BB-6777-0BC0-A331F3E5D3BD">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>2D4A0CAB-E8ED-89CD-6F62-2105E81F52CA</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC9AED59-832F-A3DE-F32A-BE0850E542C0" referredColumn="2BCAD8DB-9EEA-01A5-0E00-28DB617CCE6A"/>
+</associations>
+</Column>
+<Column name="identificacaoodocliente" id="A57ACD9C-4B66-6F7E-3D28-F45C01122ECC">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>ABA233D5-CD11-DEA6-0388-AA5029F73F8D</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC9AED59-832F-A3DE-F32A-BE0850E542C0" referredColumn="4223EF19-5C65-33F5-A41E-1E9CC7D7B205"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A6E1F42-B834-910F-682A-3BD61E3F8615" name="produto_PK">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>10348093-1F67-3255-66B8-7C3475190323</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E77621E-1306-59A2-516D-0B066B35A8ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="772D21D2-FECE-B9B0-4FF4-DA3BD0891750" name="produto__IDX">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2FED2C37-456E-AA3B-5706-C67029B8A76B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F984025A-DDD7-4E96-3048-D6A2FD3B6C88"/>
+<colUsage columnID="BE82B539-D557-ADBF-5998-B9AF24AB4091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5D3784F-30DF-A276-2588-B5174B1E452B" name="itemprodruto">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>6774D7D8-2C25-D064-35CB-AAF42CB95B08</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83BC621-B3BB-6777-0BC0-A331F3E5D3BD"/>
+<colUsage columnID="A57ACD9C-4B66-6F7E-3D28-F45C01122ECC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8DFFD5E-DF6E-9C84-0503-EC15038057AD" name="peiddoproduto">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>2FED2C37-456E-AA3B-5706-C67029B8A76B</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F984025A-DDD7-4E96-3048-D6A2FD3B6C88"/>
+<colUsage columnID="BE82B539-D557-ADBF-5998-B9AF24AB4091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

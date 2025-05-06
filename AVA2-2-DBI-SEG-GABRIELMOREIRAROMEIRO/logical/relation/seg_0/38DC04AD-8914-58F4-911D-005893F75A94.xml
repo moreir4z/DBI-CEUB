@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pedidoclinete" directorySegmentName="seg_0" id="38DC04AD-8914-58F4-911D-005893F75A94">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:10:16 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<sourcePk>39E8B963-39FC-4D00-1187-30C9ADE3B671</sourcePk>
+<targetPk>7D2C5D18-7F77-2C24-3BD5-1BD4FBF2FD41</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>33AC3F54-55A4-7A55-CF56-84BC00FA4728</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B6D92B6B-E0B1-BFE5-EF48-3D7907872D85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

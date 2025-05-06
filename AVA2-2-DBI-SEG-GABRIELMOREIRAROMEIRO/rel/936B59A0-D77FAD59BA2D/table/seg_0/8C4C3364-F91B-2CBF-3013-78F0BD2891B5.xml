@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C4C3364-F91B-2CBF-3013-78F0BD2891B5" name="Vendendor">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>A9B98F46-8FCE-D17A-4B0B-011168A019B5</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<abbreviation>Vendedor</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomedovendedor_1" id="D0155140-3705-384F-0593-95FC4BF2328E">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>B1333358-246B-7DF3-1AFD-B7CCD92D486D</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Matricula" id="1A7D0561-600F-3F81-031F-FB29C2C31228">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>10C91494-8628-D9D2-A62D-840F7840BA8A</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numerodopedido" id="87C69A8A-4212-DB22-C96F-316AABA994B6">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>191B50A7-AA29-F1D1-35DA-EF167518DCB0</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31435CE4-194F-388B-2762-81B43B39F0E3" referredColumn="05ED1D4D-EB85-9EC1-DDCF-02C43C97B8C3"/>
+</associations>
+</Column>
+<Column name="cadastroproduto" id="BFF4FB16-BD6D-3473-49F8-1AC9E6254620">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>42465FF0-0F54-0A24-377F-D09C80DC33A1</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31435CE4-194F-388B-2762-81B43B39F0E3" referredColumn="B79370A9-2215-AD55-5D3A-49FDBB0F2AD2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="941F503E-DB58-6062-4197-6CFC9874D17D" name="Vendendor_PK">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>923ECFFA-7589-1DE2-4A15-59203E2A381B</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0155140-3705-384F-0593-95FC4BF2328E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB0D523A-D396-39EF-77CF-F3D93F227471" name="vendedorpedido">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>8A782672-37D2-BCB1-8377-8C3C1F23424B</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87C69A8A-4212-DB22-C96F-316AABA994B6"/>
+<colUsage columnID="BFF4FB16-BD6D-3473-49F8-1AC9E6254620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

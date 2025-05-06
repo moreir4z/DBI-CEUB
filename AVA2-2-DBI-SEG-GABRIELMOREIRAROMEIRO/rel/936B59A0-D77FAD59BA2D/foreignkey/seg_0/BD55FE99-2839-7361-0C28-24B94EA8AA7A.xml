@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD55FE99-2839-7361-0C28-24B94EA8AA7A" containerWithKeyObject="4A7A6DA9-1AC1-EBEA-9D34-8A99BD98BB1D" localFKIndex="754662EB-15B4-0138-92F2-801169F3F90D" name="pedidoclinete">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:44:59 UTC</createdTime>
+<generatorID>38DC04AD-8914-58F4-911D-005893F75A94</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<referredTableLongName>Pedido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79424841-5873-D649-5814-AC927A7934A3</referredTableID>
+<keyObject>6A3AAAA7-AE0C-1368-3D6D-1771F82B3FA8</keyObject>
+<referredKeyID>6A3AAAA7-AE0C-1368-3D6D-1771F82B3FA8</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>numerodopedido,cadastroproduto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

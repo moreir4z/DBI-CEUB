@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33AC3F54-55A4-7A55-CF56-84BC00FA4728" name="Cliente">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:19:41 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>cc</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomedocliente" id="2FD82E2C-FCE6-B04F-7B35-2AF568CCE1FB">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:20:02 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfdocliente" id="E8FCE041-0A8E-B00D-8414-EC40C24DD1F3">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:20:11 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="6D522DBC-032A-19A9-353C-D588D77605CA">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:44:12 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente" id="2C88511E-40AF-3822-9DCB-31A69AE9C418">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:44:22 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="D716A163-DE90-5D19-4E4D-21768A008900">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:45:07 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerodopedido" id="E57152B5-4873-031F-83B5-E6EAB0AB5669">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:16:10 UTC</createdTime>
+<generatorID>38DC04AD-8914-58F4-911D-005893F75A94</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E1BB4595-886B-2F0E-D58E-95D2125BDA83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cadastroproduto" id="A0822F4C-162B-81F2-3585-B2C318186C9E">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:16:10 UTC</createdTime>
+<generatorID>38DC04AD-8914-58F4-911D-005893F75A94</generatorID>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>228614DC-E871-4B6E-D0AB-CAD26C052A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39E8B963-39FC-4D00-1187-30C9ADE3B671" name="Cliente PK">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:45:06 UTC</createdTime>
+<ownerDesignName>AVA2-2-DBI-SEG-GABRIELMOREIRA</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C88511E-40AF-3822-9DCB-31A69AE9C418</attributeRef>
+<attributeRef>D716A163-DE90-5D19-4E4D-21768A008900</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
