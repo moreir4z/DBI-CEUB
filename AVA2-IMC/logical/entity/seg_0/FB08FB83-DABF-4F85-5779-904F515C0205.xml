@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB08FB83-DABF-4F85-5779-904F515C0205" name="produto">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:48:33 UTC</createdTime>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cadastroproduto" id="18204D49-B020-B455-D426-DB467285CEC9">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:48:43 UTC</createdTime>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipodoproduto" id="A20075DE-8B6D-5DA7-6C2D-B606B80E2AB0">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:49:00 UTC</createdTime>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="1267B6B6-BE82-9CC9-A083-40A3691AAFDE">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:49:14 UTC</createdTime>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerodopedido" id="E26EDB39-DDB7-E4ED-B6D5-ADB773F5B803">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:10:59 UTC</createdTime>
+<generatorID>2FED2C37-456E-AA3B-5706-C67029B8A76B</generatorID>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<referedAttribute>E1BB4595-886B-2F0E-D58E-95D2125BDA83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cadastroproduto1" id="338E9083-3C58-9D1F-2496-382583C178AD">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:10:59 UTC</createdTime>
+<generatorID>2FED2C37-456E-AA3B-5706-C67029B8A76B</generatorID>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<referedAttribute>228614DC-E871-4B6E-D0AB-CAD26C052A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacaovendedor" id="2D4A0CAB-E8ED-89CD-6F62-2105E81F52CA">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:22:34 UTC</createdTime>
+<generatorID>6774D7D8-2C25-D064-35CB-AAF42CB95B08</generatorID>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>21338B71-23F7-E400-CA98-2FAD10A18EF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacaoodocliente" id="ABA233D5-CD11-DEA6-0388-AA5029F73F8D">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-06 00:22:34 UTC</createdTime>
+<generatorID>6774D7D8-2C25-D064-35CB-AAF42CB95B08</generatorID>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D1C7B81F-CBA0-3DCA-9FFF-4089DBA9C306</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10348093-1F67-3255-66B8-7C3475190323" name="produto PK">
+<createdBy>gabriel.romeiro</createdBy>
+<createdTime>2025-05-05 23:49:45 UTC</createdTime>
+<ownerDesignName>AVA 2</ownerDesignName>
+<engineerTo>
+<item key="936B59A0-E8C8-0FF0-99AA-D77FAD59BA2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18204D49-B020-B455-D426-DB467285CEC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
